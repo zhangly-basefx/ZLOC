@@ -44,13 +44,11 @@ def main():
 	
 	currentOS = platform.system() # 'Windows' or 'Darwin'(MACOS) or 'Linux'
 	
-	#userhome = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-	#path = userhome + '/zloc.txt'
-	#output = open(path, 'w')
+	clipStr = ''
 	
-	############### Fix Offset Value according to 'In Point'.
-	offset = 0    # Sequence Start with 0001 => offset = 0
-	############### Sequence Start with 1001 => offset = 1000
+	###################################### Fix Offset Value according to 'In Point'.
+	offset = int(raw_input('OFFSET'))    # Sequence Start with 0001 => offset = 0
+	###################################### Sequence Start with 1001 => offset = 1000
 
 	c = pfpy.getClipRef(0)
 	width =  c.getFrameWidth()
@@ -70,6 +68,7 @@ def main():
 		trackerList.append(t.getName())
 		
 		for j in range(clipLen):
+                        #clipStr += "%s %d %.15f %.15f\n"%("zloc"+name,frame,(2*dv[0]-1)/overscan,(-2*dv[1]+1)/overscan)
 			nl = [t.getName(),str(j + offset + 1),str((t.getTrackPosition(j+offset+1)[0] - halfWidth)/halfWidth),str(((t.getTrackPosition(j+offset+1)[1] - halfHeight)/halfHeight)*-1)]
 			nl = ' '.join(nl)
 			nl = nl + '\n'
