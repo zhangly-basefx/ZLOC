@@ -95,9 +95,8 @@ class ImportZLOC():
                     mc.expression(s=i + '.translateX=((((-10 *' + i + '.translateZ) / ' + selCam_Name + '.focalLength) * (' + selCam_Name + '.horizontalFilmAperture * 2.54) ) / 2 ) * (' + i + '.TrackerU +' + i + '.OffsetU)', object=i, alwaysEvaluate=True, unitConversion='all')
                     mc.expression(s=i + '.translateY=((((-10 *' + i + '.translateZ) / ' + selCam_Name + '.focalLength) * (' + selCam_Name + '.verticalFilmAperture * 2.54) ) / -2 ) * (' + i + '.TrackerV +' + i + '.OffsetV)', object=i, alwaysEvaluate=True, unitConversion='all')
                     newZLocName = mc.ls(mc.parent(i, 'zloc_grp'),long=True)[0]
-                    mc.xform(newZLocName, a=True, rotation=(0,0,0))
+                    mc.xform(newZLocName, objectSpace=True, rotation=(0,0,0))
                     mc.setAttr(newZLocName + '.tz', -10)
-                    
                 
                 if grpExist == False:
                     mc.parentConstraint(selCam_Name, 'zloc_grp', maintainOffset=False) # Parent Constraint zloc Group to Camera
