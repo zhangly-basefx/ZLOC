@@ -1,14 +1,14 @@
 ##
-## Script:		import_ZLOC_for_MAYA.py v1.0
+## Script:      import_ZLOC_for_MAYA.py v1.0
 ##
-## Author:		Hyuk Ko
-##				kohyuk91@gmail.com
+## Author:      Hyuk Ko
+##              kohyuk91@gmail.com
 ##
-## Date:		2018/08/07
+## Date:        2018/08/07
 ##
-## Description:	Creates locators that are constrained to TrackerU/V coordinates
+## Description: Creates locators that are constrained to TrackerU/V coordinates
 ##
-## Usage:		1.Select camera and run script
+## Usage:       1.Select camera and run script
 ##              2.Click 'TXT' or 'CLIPBOARD'
 ##
 
