@@ -1,5 +1,5 @@
 ##
-## Script:		import_ZLOC_from_clipboard.py v1.0
+## Script:		import_ZLOC_from_clipboard_for_MAYA.py v1.0
 ##
 ## Author:		Hyuk Ko
 ##				kohyuk91@gmail.com
