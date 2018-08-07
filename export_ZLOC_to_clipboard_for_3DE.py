@@ -55,7 +55,7 @@ if c!=None and pg!=None:
             overscan = float(tde4.getWidgetValue(req, "overscan_field"))
             
             if offset<0:
-			    offset = 0	
+                offset = 0	
             #
             # main block...    
             for point in l:
