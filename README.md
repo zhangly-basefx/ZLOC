@@ -15,6 +15,7 @@ WINDOWS & MAC & LINUX : \3DE4_version\sys_data\py_scripts
 
 #### PFTRACK
 
+```
 Place scripts inside...
 
 WINDOWS : C:\Program Files\The Pixel Farm\PFTrack 2017\nodes
@@ -24,6 +25,7 @@ ex) C:\Program Files\The Pixel Farm\PFTrack 2017\nodes\export_ZLOC_to_clipboard_
 MAC
 
 LINUX
+```
 
 ## Usage
 
