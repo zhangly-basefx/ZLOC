@@ -1,5 +1,5 @@
 # ZLOC
-Export 2.5D Trackers from 3DEqualizer / PFTrack / Syntheyes to MAYA
+Export 2.5D Trackers from 3DEqualizer & PFTrack & Syntheyes to MAYA
 
 ## INSTALL
 
