@@ -1,7 +1,7 @@
 # ZLOC
 Export 2.5D Trackers from 3DEqualizer / PFTrack / Syntheyes to MAYA
 
-## INSTALL
+### INSTALL
 
 #### 3DEQUALIZER
 
@@ -27,7 +27,7 @@ MAC :
 LINUX :
 ```
 
-## Usage
+## USAGE
 
 #### 3DEQUALIZER
 
