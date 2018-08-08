@@ -6,6 +6,8 @@ Export 2.5D Trackers from 3DEqualizer / PFTrack / Syntheyes to MAYA
 #### 3DEQUALIZER
 
 ```
+Place scripts inside...
+
 WINDOWS & MAC & LINUX : \3DE4_version\sys_data\py_scripts
 
 ex) \3DE4_version\sys_data\py_scripts\export_ZLOC_to_txt_for_3DE.py
@@ -27,7 +29,7 @@ MAC :
 LINUX :
 ```
 
-## USAGE
+### USAGE
 
 #### 3DEQUALIZER
 
