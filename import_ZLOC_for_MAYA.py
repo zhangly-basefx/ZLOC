@@ -127,7 +127,7 @@ class ImportZLOC():
             cb = QtGui.QClipboard() # Get Clipboard
             cbText = str(cb.text()) # Make Clipboard into String
             
-            if cbText[0:4] == 'zloc':
+            if cbText[0:4] == 'zloc' or cbText[0:7] == 'Tracker':
                 word_list = cbText.split() # Append All Words as Single Elements to List ex) ['zloc01','1','0.198568','0.754568','zloc01','2','0.188568','0.784568', ......]    
                 locName_list = sorted(set(word_list[0::4]),key=word_list.index) # Get Locator Names from List ex) ['zloc01','zloc02', ......]
                 word_four_list = [word_list[i:i+4] for i in range(0, len(word_list), 4)] # Group Elements By 4 ex) [['zloc01','1','0.198568','0.754568'],['zloc01','2','0.188568','0.784568'], ......]
