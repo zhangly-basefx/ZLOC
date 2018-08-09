@@ -37,6 +37,6 @@ LINUX :
 
 #### PFTRACK
 
-[[ZLOC/doc/export_ZLOC_to_CLIPBOARD_for_PFTRACK_01.png|ALT TEXT]]
+![](https://github.com/kohyuk91/ZLOC/blob/master/doc/export_ZLOC_to_CLIPBOARD_for_PFTRACK_01.png)
 
 #### SYNTHEYES
