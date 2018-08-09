@@ -40,7 +40,7 @@ No Need. Use Native 'Tracker 2-D Paths' Exporter.
 ## USAGE
 
 ### EXPORTING
-```
+
 #### 3DEQUALIZER
 
 #### PFTRACK
@@ -52,4 +52,7 @@ No Need. Use Native 'Tracker 2-D Paths' Exporter.
 File >> Export >> Tracker 2-D Paths
 
 ![](https://github.com/kohyuk91/ZLOC/blob/master/doc/syntheyes_tracker_2d_path_export_setting.png)
-```
+
+### IMPORTING
+
+#### MAYA
