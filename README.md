@@ -31,6 +31,12 @@ ex) /Applications/The Pixel Farm/PFTrack 2017/nodes/export_ZLOC_to_clipboard_for
 LINUX :
 ```
 
+#### SYNTHEYES
+
+```
+No Need. Use 'Tracker 2-D Paths' Exporter
+```
+
 ## USAGE
 
 #### 3DEQUALIZER
