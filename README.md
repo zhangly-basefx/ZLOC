@@ -40,3 +40,6 @@ LINUX :
 ![](https://github.com/kohyuk91/ZLOC/blob/master/doc/export_ZLOC_to_CLIPBOARD_for_PFTRACK.png)
 
 #### SYNTHEYES
+
+File >> Export >> Tracker 2-D Paths
+
