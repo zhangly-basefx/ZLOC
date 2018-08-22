@@ -57,7 +57,7 @@ if c!=None and pg!=None:
                         frame = 1+offset
                         for v in c2d:
                             if v[0]!=-1.0 and v[1]!=-1.0:
-                                dv = tde4.removeDistortion2D(c, frame, v)
+                                dv = tde4.removeDistortion2D(c, frame-offset, v)
                                 f.write("%s %d %.15f %.15f\n"%("zloc"+name,frame,(2*dv[0]-1)/overscan,(-2*dv[1]+1)/overscan))
                             frame += 1
                     f.close()
