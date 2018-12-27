@@ -10,9 +10,8 @@ Place scripts inside...
 
 WINDOWS & MAC & LINUX : \3DE4_version\sys_data\py_scripts
 
-ex) \3DE4_win64_r5\sys_data\py_scripts\export_ZLOC_to_txt_for_3DE.py
+ex) \3DE4_win64_r5\sys_data\py_scripts\export_ZLOC_for_3de.py
 
-ex) \3DE4_win64_r5\sys_data\py_scripts\export_ZLOC_to_clipboard_for_3DE.py
 ```
 
 #### PFTRACK
