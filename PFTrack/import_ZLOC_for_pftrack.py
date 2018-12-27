@@ -16,7 +16,7 @@ from pfpy import Tracker, Clip
 import tempfile
 
 def pfNodeName():
-    return 'Import_ZLOC_from_TEMP'
+    return 'Import_ZLOC'
 
 def pfNodeTopLevelButton():
     return 1
