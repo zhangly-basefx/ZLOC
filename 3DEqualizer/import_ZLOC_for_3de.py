@@ -15,7 +15,7 @@
 # 3DE4.script.comment:    v1.0 @ 2018/10/19
 # 3DE4.script.comment:    kohyuk91@gmail.com
 #
-# Original Script:    export_tracks.py(by 3DE) - modified by Hyuk Ko
+# Original Script:    import_tracks.py(by 3DE) - modified by Hyuk Ko
 #
 
 #
